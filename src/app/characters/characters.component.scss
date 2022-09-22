@@ -1,7 +1,16 @@
+.card:hover {
+    color: rgb(192, 192, 192);
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
 .card-body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    color: black;
 }
 
 .see-more {
