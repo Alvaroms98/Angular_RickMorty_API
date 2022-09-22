@@ -1,0 +1,15 @@
+<div *ngIf="numCharacters > 0">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-4">
+                <div class="card" style="width: 18rem;" *ngFor="let character of characters">
+                    <img [src]="character.image" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"> {{ character.name }} </h5>
+                        <a href="#" class="btn btn-warning see-more">See more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
